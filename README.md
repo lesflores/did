@@ -1,5 +1,5 @@
 # Explicación de las variables utilizadas en el modelo:
-# 1. health_expenditures: Esta es la variable que queremos analizar. Lo que buscamos es entender cómo se modifican los gastos en salud de los hogares debido a la intervención del programa.
+1. health_expenditures: Esta es la variable que queremos analizar. Lo que buscamos es entender cómo se modifican los gastos en salud de los hogares debido a la intervención del programa.
 # 2. enrolled_round: refleja el impacto directo del programa. Nos permite medir cuánto cambiaron los gastos en salud específicamente para los hogares que estuvieron inscritos 
 # en el programa después de la intervención.
 # 3. round: controla los cambios generales que ocurrieron con el tiempo. Es decir, tiene en cuenta las variaciones que pueden haber afectado a todos los hogares, ya sean inscritos o no.
