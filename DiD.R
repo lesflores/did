@@ -14,10 +14,12 @@ library(haven) # Para leer archivos .dta
 # Puedes descargarla: https://openknowledge.worldbank.org/entities/publication/ebbe3565-69ff-5fe2-b65d-11329cf45293
 datos <- read_dta("evaluation.dta")
 
-# Seleccionar únicamente las localidades tratadas, es decir, aquellas que participaron en el programa que se está evaluando
+# Seleccionar únicamente las localidades tratadas, es decir, 
+# aquellas que participaron en el programa que se está evaluando
 datos <- datos[datos$treatment_locality == 1, ]
 
-# Crear la variable de interacción. La interacción combina dos variables: si el hogar está inscrito en el programa (enrolled) 
+# Crear la variable de interacción. La interacción combina dos variables: 
+# si el hogar está inscrito en el programa (enrolled) 
 # y si el periodo es antes o después de la intervención (round).
 datos$enrolled_round <- datos$enrolled * datos$round
 
